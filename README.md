@@ -2,9 +2,37 @@
 
 Playing with NLP techniques with the ~500,000 Amazon fine food reviews ([link](https://www.kaggle.com/snap/amazon-fine-food-reviews/data)).
 
-## Installation instructions
+## Usage
+
+The repository contains a notebook I used for an NLP workshop at a conference where I was invited to talk. I am making it available here in the `src/nlp_analysis.ipynb` jupyter notebook.
+
+- [link to notebook](./src/nlp_analysis.ipynb)
+- [link to hml file](./html/nlp_analysis.html)
 
 #### 1. Clone the repository
+
+From command line :
+
+```
+git clone git@github.com:itismouad/text-frites.git
+```
+
+Folder structure:
+
+```
+.
+├── README.md
+├── __init__.py
+├── data
+│   ├── Reviews.csv
+│   ├── database.sqlite
+│   ├── glove
+│   └── word2vec
+├── img
+├── model
+├── nlp_3.yml
+└── src
+```
 
 #### 2. Install conda environment
 
